@@ -1,24 +1,11 @@
 {
    "name": "pretty-class",
-   "version": "1.0.2",
+   "version": "1.0.3",
    "author": "Naxrul Ahmed",
    "description": "A utility for generating CSS class names with ease.",
-   "main": "./index.js",
-   "module": "./esm/index.js",
+   "main": "./cjs/index.js",
+   "module": "./index.js",
    "types": "./types/index.d.ts",
-   "exports": {
-      ".": {
-         "types": "./types/index.d.ts",
-         "import": "./index.js",
-         "require": "./cjs/index.js"
-      },
-      "./types/*": "./types/*.d.ts",
-      "./cjs/*": "./cjs/*.js",
-      "./*": {
-         "import": "./*.js",
-         "require": "./cjs/*.js"
-      }
-   },
    "scripts": {
       "start": "makepack start",
       "build": "makepack build",
@@ -27,7 +14,7 @@
    "devDependencies": {
       "@types/react": "^19.0.2",
       "@types/react-dom": "^19.0.2",
-      "makepack": "^1.5.5",
+      "makepack": "^1.5.24",
       "react": "^19.0.0",
       "react-dom": "^19.0.0",
       "typescript": "^4.4.2"
