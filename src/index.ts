@@ -8,3 +8,5 @@ export const classNames = (...args: classNamesTypes[]): string => {
     return []
   }).join(' ')
 };
+
+export default classNames
