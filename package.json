@@ -1,6 +1,6 @@
 {
    "name": "pretty-class",
-   "version": "1.0.6",
+   "version": "1.0.7",
    "author": "Naxrul Ahmed",
    "description": "A utility for generating CSS class names with ease.",
    "main": "./index.js",
